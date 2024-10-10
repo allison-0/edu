@@ -13,5 +13,12 @@ def main():
     t.speed(6) # Make the animation a bit faster
     t.hideturtle() # Hide turtle cursor
 
+    # Draw the Olympic rings
+    draw_circle(t, -110, 0, "blue")
+    draw_circle(t, 0, 0, "black")
+    draw_circle(t, 110, 0, "red")
+    draw_circle(t, -55, -50, "yellow")
+    draw_circle(t, 55, -50, "green")
+
 if __name__ == "__main__":
     main()
