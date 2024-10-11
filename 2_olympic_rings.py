@@ -14,11 +14,11 @@ def main():
     t.hideturtle() # Hide turtle cursor
 
     # Draw the Olympic rings
-    draw_circle(t, -110, 0, "#0079d1")
-    draw_circle(t, 0, 0, "#000000")
-    draw_circle(t, 110, 0, "#f02329")
-    draw_circle(t, -55, -50, "#FFB20C")
-    draw_circle(t, 55, -50, "#00a750")
+    draw_circle(t, -110, 0, "#0079d1") # Blue
+    draw_circle(t, 0, 0, "#000000") # Black
+    draw_circle(t, 110, 0, "#f02329")  # Red
+    draw_circle(t, -55, -50, "#FFB20C") # Yellow/orange
+    draw_circle(t, 55, -50, "#00a750") # Green
 
 if __name__ == "__main__":
     main()
