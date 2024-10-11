@@ -8,6 +8,11 @@ def draw_circle(t, x, y, color):
     t.circle(45) # Draw circle with a radius of 45
 
 def main():
+    # Set up screen for the program
+    screen = turtle.Screen()
+    screen.setup(400, 300)
+    screen.title("Olympic Rings")
+
     t = turtle.Turtle() # Create turtle
     t.width(5) # Set line width
     t.speed(6) # Make the animation a bit faster
@@ -19,6 +24,8 @@ def main():
     draw_circle(t, 110, 0, "red")
     draw_circle(t, -55, -50, "yellow")
     draw_circle(t, 55, -50, "green")
+
+    screen.exitonclick() # Be able to exit the program quickly
 
 if __name__ == "__main__":
     main()
